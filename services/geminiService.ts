@@ -2,10 +2,11 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { StrategyResult } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
-
 export const generateStrategySnippet = async (industry: string, adSpend: string): Promise<StrategyResult> => {
   try {
+    // Initialize AI inside the function to ensure process.env.API_KEY is available and correct
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+    
     const response = await ai.models.generateContent({
       model: "gemini-3-flash-preview",
       contents: `Analyze this industry: ${industry} within the South African market context, with a monthly ad spend of ${adSpend} ZAR. Provide a 'Salt Ads Agency' style elite growth strategy based on human psychology (relevant to SA business owners), conversion engineering, and data.`,

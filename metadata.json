@@ -1,7 +1,5 @@
 {
   "name": "SALT Ads Agency - Elite Growth",
   "description": "A high-conversion landing page for SALT Ads Agency, designed for high-income business owners using a premium aesthetic of gold, black, and silver. Features include strategic psychological insights and an AI-driven growth strategy preview.",
-  "requestFramePermissions": [
-    "camera"
-  ]
+  "requestFramePermissions": []
 }
