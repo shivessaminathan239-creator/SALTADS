@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import SocialProof from './components/SocialProof';
+import ProblemSolution from './components/ProblemSolution';
 import Methodology from './components/Methodology';
 import Pillars from './components/Pillars';
 import Philosophy from './components/Philosophy';
@@ -30,7 +32,13 @@ const App: React.FC = () => {
         </section>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <section id="methodology" className="py-24">
+          <SocialProof />
+          
+          <section id="problem" className="py-12">
+            <ProblemSolution />
+          </section>
+
+          <section id="methodology" className="py-24 border-t border-white/5">
             <Methodology />
           </section>
 

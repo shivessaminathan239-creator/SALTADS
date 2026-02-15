@@ -7,50 +7,50 @@ const Pillars: React.FC = () => {
 
   const pillars = [
     {
-      title: "Copywriting",
-      description: "The foundation. Copy is leverage. It multiplies ad spend and conversion rates through the power of persuasion.",
+      title: "Direct Response Copy",
+      description: "We write words that sell. We use local SA slang and psychological triggers to bypass 'ad blindness'.",
       icon: <PenTool className="w-6 h-6" />,
-      tag: "THE FOUNDATION"
+      tag: "THE HOOK"
     },
     {
-      title: "Paid Advertising",
-      description: "Meta & Google Mastery. For every R1 spent, we aim to generate R3+ in return. Results build dominance.",
+      title: "Omni-Channel Ads",
+      description: "We dominate Meta & Google. For every R1 spent, our goal is R5 in booked revenue. Scale without fear.",
       icon: <Target className="w-6 h-6" />,
-      tag: "PERFORMANCE"
+      tag: "THE FUEL"
     },
     {
-      title: "Automation & AI",
-      description: "Scale without burnout. AI as a force multiplier for creative generation, lead qualification, and booking.",
+      title: "WhatsApp Automation",
+      description: "Speed kills. Our AI bots engage leads instantly on WhatsApp while they are still in 'buying mode'.",
       icon: <Network className="w-6 h-6" />,
-      tag: "SCALABILITY"
+      tag: "THE SPEED"
     },
     {
-      title: "Human Psychology",
-      description: "People buy emotionally then justify logically. We trigger: Desire, Fear, Status, Certainty, and Trust.",
+      title: "Local Market Psychology",
+      description: "South Africans buy differently. We trigger: Trust, Status, and Economic Certainty in every ad.",
       icon: <Users className="w-6 h-6" />,
       tag: "THE EDGE"
     },
     {
-      title: "Funnel Engineering",
-      description: "Turning attention into action. Simple, fast, and conversion-focused design for high-value targets.",
+      title: "High-Ticket Funnels",
+      description: "We don't build websites. We build conversion machines designed to book calls directly into your calendar.",
       icon: <Layout className="w-6 h-6" />,
-      tag: "CONVERSION"
+      tag: "THE CONVERSION"
     },
     {
-      title: "Data Analytics",
-      description: "Data decides. Ego doesn't. Win through continuous feedback loops that refine messages and kill losers fast.",
+      title: "ROI Reporting",
+      description: "No vanity metrics. You get a weekly breakdown of leads, cost-per-lead, and estimated revenue impact.",
       icon: <BarChart3 className="w-6 h-6" />,
-      tag: "PRECISION"
+      tag: "THE DATA"
     }
   ];
 
   return (
     <div>
       <div className="text-center mb-16">
-        <span className="text-[10px] uppercase tracking-[0.4em] text-[#bf953f] font-bold block mb-4">Core Competencies</span>
-        <h2 className="serif text-4xl md:text-5xl font-medium mb-6">Mastered at an Elite Level.</h2>
+        <span className="text-[10px] uppercase tracking-[0.4em] text-[#bf953f] font-bold block mb-4">The SALT Growth System</span>
+        <h2 className="serif text-4xl md:text-5xl font-medium mb-6">A Turnkey Revenue Machine.</h2>
         <p className="max-w-2xl mx-auto text-gray-500">
-          Salt can only dominate if these six pillars are mastered. We don't just 'do' marketing; we engineer growth systems.
+          We don't offer 'packages.' We provide a complete acquisition system designed to out-compete and out-spend your rivals.
         </p>
       </div>
 
@@ -72,7 +72,7 @@ const Pillars: React.FC = () => {
               rel="noopener noreferrer"
               className="text-[10px] uppercase tracking-[0.2em] font-bold flex items-center gap-2 text-white group-hover:text-[#bf953f] transition-colors"
             >
-              Consult an expert <div className="w-4 h-[1px] bg-current"></div>
+              Consult the Specialist <div className="w-4 h-[1px] bg-current"></div>
             </a>
           </div>
         ))}
