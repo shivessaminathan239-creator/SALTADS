@@ -24,7 +24,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white selection:bg-[#bf953f] selection:text-black">
+    <div className="min-h-screen bg-white text-black selection:bg-[#bf953f] selection:text-white">
       <Navbar scrolled={scrolled} />
       <main>
         <section id="home">
@@ -38,11 +38,11 @@ const App: React.FC = () => {
             <ProblemSolution />
           </section>
 
-          <section id="methodology" className="py-24 border-t border-white/5">
+          <section id="methodology" className="py-24 border-t border-black/5">
             <Methodology />
           </section>
 
-          <section id="pillars" className="py-24 border-t border-white/5">
+          <section id="pillars" className="py-24 border-t border-black/5">
             <Pillars />
           </section>
 
